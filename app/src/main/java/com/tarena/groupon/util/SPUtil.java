@@ -24,6 +24,7 @@ public class SPUtil {
     SharedPreferences sp;
 
     //通过构造器重载，以不同的方式来获得偏好设置文件
+    //测试git
 
     public SPUtil(Context context,String name){
       sp = context.getSharedPreferences(name,Context.MODE_PRIVATE);
