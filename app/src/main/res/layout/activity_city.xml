@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+
+        layout="@layout/header_city_layout" />
+
+    <include
+
+        layout="@layout/city_search_layout" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_city_cities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
